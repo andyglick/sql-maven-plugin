@@ -70,10 +70,8 @@ import org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException;
  * Executes SQL against a database.
  */
 @Mojo( name = "execute", requiresProject = true, threadSafe = true )
-public class SqlExecMojo
-    extends AbstractMojo
+public class SqlExecMojo extends AbstractMojo
 {
-
     /**
      * Call {@link #setOnError(String)} with this value to abort SQL command execution if an error is found.
      */

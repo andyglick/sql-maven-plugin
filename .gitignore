@@ -1,5 +1,11 @@
-target
+target/
 .settings
 .classpath
 .project
 *.iml
+*.ipr
+*.iws
+.idea/
+
+/pom.xml.versionsBackup
+/effective-pom.xml

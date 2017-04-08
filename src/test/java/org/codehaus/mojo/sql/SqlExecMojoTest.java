@@ -34,8 +34,7 @@ import java.util.Properties;
  * This must be fixed. At the moment it is handled having appropriate method names.
  */
 @FixMethodOrder( MethodSorters.NAME_ASCENDING )
-public class SqlExecMojoTest
-    extends AbstractMojoTestCase
+public class SqlExecMojoTest extends AbstractMojoTestCase
 {
     private SqlExecMojo mojo;
 
@@ -119,7 +118,6 @@ public class SqlExecMojoTest
         mojo.execute();
 
         assertEquals( 3, mojo.getSuccessfulStatements() );
-
     }
 
     public void test021FileArrayMojo()
@@ -132,7 +130,6 @@ public class SqlExecMojoTest
         mojo.execute();
 
         assertEquals( 3, mojo.getSuccessfulStatements() );
-
     }
 
     /**
